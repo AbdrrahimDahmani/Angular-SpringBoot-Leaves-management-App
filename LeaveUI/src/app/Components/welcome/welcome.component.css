@@ -1,0 +1,56 @@
+.welcome-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+  background-color: #f0f0f0; /* Couleur de fond de la page */
+}
+
+.title {
+  font-size: 5rem;
+}
+
+.red {
+  color:black; /* Couleur rouge */
+}
+
+.orange {
+  color: black; /* Couleur orange */
+}
+
+.blue {
+  color: blue; /* Couleur bleue */
+}
+
+.pistachio {
+  color: #00cc66; /* Couleur pistache */
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.login-button,
+.signup-button {
+  
+    width: 150px; /* Vous pouvez ajuster la largeur selon vos besoins */
+    padding: 10px; /* Ajustez le rembourrage selon vos préférences */
+    font-size: 1rem; /* Ajustez la taille de la police selon vos préférences */
+  }
+  
+
+.login-button {
+  background-color: #007bff; /* Couleur bleue pour le bouton Login */
+  color: white;
+}
+
+.signup-button {
+  background-color: #00cc66; /* Couleur pistache pour le bouton Sign Up */
+  color: white;
+}
+.button-space {
+  margin-right: 20px; /* Ajustez la valeur de la marge selon vos besoins */
+}
+

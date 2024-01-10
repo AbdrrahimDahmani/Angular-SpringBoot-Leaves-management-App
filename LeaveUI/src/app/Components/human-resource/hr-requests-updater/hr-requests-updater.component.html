@@ -1,0 +1,24 @@
+<div>
+  <form (ngSubmit)="submitStatus()">
+    <div class="form-container">
+      <div class="input-container">
+        <mat-form-field appearance="outline">
+          <mat-label>Change Status</mat-label>
+          <mat-form-field-control>
+            <mat-select
+              placeholder="Status"
+              matValue="status"
+              (selectionChange)="changeStatus($event)"
+            >
+              <mat-option value="Approved">Approved</mat-option>
+              <mat-option value="Declined">Declined</mat-option>
+            </mat-select>
+          </mat-form-field-control>
+        </mat-form-field>
+      </div>
+      <div class="button-container">
+        <button mat-stroked-button>Save</button>
+      </div>
+    </div>
+  </form>
+</div>

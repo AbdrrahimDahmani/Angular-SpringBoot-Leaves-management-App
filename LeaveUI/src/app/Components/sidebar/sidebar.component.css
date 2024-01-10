@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500");
+
+#sidebar {
+  z-index: 1000;
+  position: fixed;
+  left: 250px;
+  width: 250px;
+  height: 100%;
+  margin-left: -250px;
+  overflow-y: auto;
+  /* background: rgb(91, 169, 211); */
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  border-right: solid 1px black;
+}
+
+#sidebar header {
+  line-height: 52px;
+  text-align: center;
+}
+
+/* #sidebar header a {
+  color: black;
+  display: block;
+}
+
+#sidebar header a:hover {
+  color: black;
+} */
+
+#sidebar .nav a {
+  background: none;
+  border-bottom: 1px solid black;
+  color: black;
+  font-size: 14px;
+  padding: 16px 0;
+  display: flex;
+  text-align: center;
+  cursor: pointer;
+}
+
+#sidebar .nav a:hover {
+  background: none;
+  color: #ffbd59;
+}
+
+#sidebar .nav a i {
+  margin-right: 16px;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+}
+a {
+  text-align: center;
+  text-decoration: none;
+}
+img {
+  width: 250px;
+}

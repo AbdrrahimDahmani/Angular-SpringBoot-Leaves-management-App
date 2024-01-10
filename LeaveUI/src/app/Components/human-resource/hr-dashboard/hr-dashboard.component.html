@@ -1,0 +1,50 @@
+<div id="viewport">
+  <app-hr-sidebar></app-hr-sidebar>
+  <div>
+    <h1>DASHBOARD</h1>
+    <div class="card-container">
+      <div class="card">
+        <div class="icon">
+          <i class="fas fa-plane"></i>
+        </div>
+        <div class="card-content">
+          <h2>All Requests</h2>
+          <p class="mt-1">
+            {{
+              approvedLeaveRequestNumber +
+                leaveRequestNumber +
+                declinedLeaveRequestNumber
+            }}
+          </p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="icon icon-pistache">
+          <i class="fas fa-check"></i>
+        </div>
+        <div class="card-content">
+          <h2>Approved</h2>
+          <p class="mt-1">{{ approvedLeaveRequestNumber }}</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="icon icon-orange">
+          <i class="fas fa-info"></i>
+        </div>
+        <div class="card-content">
+          <h2>Pending</h2>
+          <p class="mt-1">{{ leaveRequestNumber }}</p>
+        </div>
+      </div>
+      <div class="card">
+        <div class="icon icon-red">
+          <i class="fas fa-trash"></i>
+        </div>
+        <div class="card-content">
+          <h2>Declined</h2>
+          <p class="mt-1">{{ declinedLeaveRequestNumber }}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

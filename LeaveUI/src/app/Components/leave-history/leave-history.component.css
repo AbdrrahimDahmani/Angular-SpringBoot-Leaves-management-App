@@ -1,0 +1,46 @@
+/* .leave-history-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin: 20px;
+}
+
+.leave-history-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 1px solid black;
+}
+
+.leave-history-table th,
+.leave-history-table td {
+  border: 2px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+.leave-history-table th {
+  background-color: #3fcd32;
+  color: white;
+}
+
+.leave-history-table tr:nth-child(even) {
+  background-color: #3fcd32;
+}
+
+.leave-history-table tr:hover {
+  background-color: #ddd;
+} */
+
+.table-container {
+  margin: 25px 15px 0 258px;
+}
+h1 {
+  padding-top: 40px;
+  padding-left: 4px;
+  text-align: start;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: x-large;
+}

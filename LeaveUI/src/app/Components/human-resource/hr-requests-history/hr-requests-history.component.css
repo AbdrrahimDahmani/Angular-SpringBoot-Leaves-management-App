@@ -1,0 +1,31 @@
+.table-container {
+  margin: 25px 15px 0 258px;
+}
+h1 {
+  padding-top: 40px;
+  padding-left: 4px;
+  text-align: start;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: x-large;
+}
+.mt-1 {
+  padding-top: 15px;
+}
+.search-input {
+  outline: none;
+  border: 1px solid #ccc;
+  padding: 8px 10px;
+  border-radius: 3px;
+}
+.search-input:active {
+  border: 1px solid #bbb;
+}
+.search-input:focus {
+  border: 1px solid #aaa;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

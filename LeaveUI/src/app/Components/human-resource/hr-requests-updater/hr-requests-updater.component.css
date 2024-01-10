@@ -1,0 +1,14 @@
+.form-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 20px;
+}
+button {
+  background-color: #55c2da;
+  color: white;
+}
+.button-container button {
+  color: white;
+}

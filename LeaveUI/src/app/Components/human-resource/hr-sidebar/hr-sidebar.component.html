@@ -1,0 +1,29 @@
+<!-- Sidebar -->
+<div id="sidebar">
+  <header>
+    <a routerLink="/dashboard">
+      <img src="../../../../assets/ReqLeave.png" alt="logo" />
+    </a>
+  </header>
+  <ul class="nav">
+    <li>
+      <a routerLink="/hr-dashboard">
+        <i class="zmdi zmdi-view-dashboard"></i> Dashboard
+      </a>
+    </li>
+    <li>
+      <a routerLink="/pending-requests">
+        <i class="zmdi zmdi-link"></i> New Requests
+      </a>
+    </li>
+    <li>
+      <a routerLink="/requests-history">
+        <i class="zmdi zmdi-widgets"></i> Employees Leave History
+      </a>
+    </li>
+
+    <li>
+      <a (click)="logout()"> <i class="zmdi zmdi-comment-more"></i> Exit </a>
+    </li>
+  </ul>
+</div>

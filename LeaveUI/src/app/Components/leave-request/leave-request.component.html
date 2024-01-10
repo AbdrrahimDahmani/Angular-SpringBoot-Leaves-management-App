@@ -1,0 +1,43 @@
+<div class="container">
+  <app-sidebar></app-sidebar>
+  <form (ngSubmit)="onSubmit()">
+    <div class="form-group">
+      <label for="start-date">Start Date:</label>
+      <input
+        type="date"
+        id="start-date"
+        name="start-date"
+        [(ngModel)]="leaveRequest.start_date"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="end-date">End Date:</label>
+      <input
+        type="date"
+        id="end-date"
+        name="end-date"
+        [(ngModel)]="leaveRequest.end_date"
+      />
+    </div>
+
+    <div class="form-group">
+      <label for="leave-type">Type of leave:</label>
+      <select id="leave-type" class="form-control" name="leave-type">
+        <option value="">List of Choices...</option>
+        <option value="Maternity Leave">Maternity Leave</option>
+        <option value="Parental Leave">Parental Leave</option>
+        <option value="Sick Leave">Sick Leave</option>
+        <option value="Annual Paid Leave">Annual Paid Leave</option>
+      </select>
+    </div>
+    <label for="comment">Comment:</label>
+    <textarea
+      id="comment"
+      name="comment"
+      [(ngModel)]="leaveRequest.comment"
+    ></textarea>
+
+    <button type="submit">Send</button>
+  </form>
+</div>

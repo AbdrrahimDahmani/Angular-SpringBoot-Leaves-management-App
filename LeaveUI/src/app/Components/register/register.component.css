@@ -1,0 +1,27 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.table thead th {
+  background: linear-gradient(to bottom right, #be5d87, #d2b48c);
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  text-align: left;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #f5deb3;
+}
+
+.table tbody tr:nth-child(even) {
+  background-color: #ffe4b5;
+}
+
+.table td,
+.table th {
+  padding: 8px;
+  border: 1px solid #ddd;
+}

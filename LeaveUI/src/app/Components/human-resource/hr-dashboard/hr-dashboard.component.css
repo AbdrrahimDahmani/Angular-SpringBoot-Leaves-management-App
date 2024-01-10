@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,400,400i,500");
+
+body {
+  overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+/* Styles pour le Toggle */
+
+#viewport {
+  padding-left: 250px;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+#content {
+  width: 100%;
+  position: relative;
+  margin-right: 0;
+  justify-content: flex-end;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  padding-top: 60px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: x-large;
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  width: 200px;
+  text-align: center;
+  padding: 20px;
+  padding-top: 30px;
+}
+
+.icon {
+  font-size: 48px;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.card-content {
+  color: #333;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 0;
+}
+
+p {
+  font-size: 14px;
+}
+
+.icon-pistache {
+  color: rgb(55, 255, 0);
+}
+
+.icon-orange {
+  color: orange;
+}
+
+.icon-red {
+  color: red;
+}
